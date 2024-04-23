@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Juego de la Culebrita</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <p class="score">YOUR SCORE: 0</p>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <div class="levels">
+      <h3 class="level__text">Levels</h3>
+      <button class="level" name="EASY">Easy</button>
+      <button class="level" name="NORMAL">Normal</button>
+      <button class="level" name="HARD">Hard</button>
+      <div class="level__start">
+        <p>Start o Stop</p>
+        <button class="button__start"><i class='bx bx-play'></i></button>
+      </div>
+    </div>
+    <p class="keys__text">Usa las teclas de tu ordenador</p>
+    <div class="directions">
+      <div class="direction direction__up current__direction">
+        <i class='bx bx-up-arrow-alt' ></i>
+      </div>
+      <div class="direction direction__left">
+        <i class='bx bx-left-arrow-alt'></i>
+      </div>
+      <div class="direction direction__right">
+        <i class='bx bx-right-arrow-alt' ></i>
+      </div>
+      <div class="direction direction__down">
+        <i class='bx bx-down-arrow-alt' ></i>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
